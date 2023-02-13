@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Admin panel</title>
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <ul>
+                <li>
+                    <a href="#">
+                        <i class='far fa-circle'></i>
+                        <div class="title">Wayels</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='fas fa-info-circle'></i>
+                        <div class="title">Requests</div>
+                    </a>
+                </li> 
+                <li>
+                    <a href="#">
+                        <i class='far fa-bell'></i>
+                        <div class="title">Notifications</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class="fas fa-th-large"></i>
+                        <div class="title">Dashboard</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='fas fa-truck'></i>
+                        <div class="title">Shipments</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='fas fa-boxes'></i>
+                        <div class="title">Parcels</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='far fa-flag'></i>
+                        <div class="title">Branches</div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <i class='fas fa-user-friends'></i>
+                        <div class="title">Clients</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="main">
+            <div class="top-bar">
+                <div class="search">
+                    <input type="text" name="search" placeholder="Search by tracking number">
+                    <label for="search"><i class="fas fa-search"></i></label>
+                    </div>
+                    <i class="fas fa-bell"></i>
+                    <div class="user">
+                        <img src="user.png" alt="">
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="number">222</div>
+                            <div class="card-name">New packages</div>
+                        </div>
+                        <div class="icon-box">
+                            <i class='far fa-hand-peace'></i>
+                        </div>
+                    </div>
+                
+                    <div class="card">
+                            <div class="card-content">
+                                <div class="number">60</div>
+                                <div class="card-name">Ready for shipping</div>
+                            </div>
+                            <div class="icon-box">
+                                <i class='fas fa-box'></i>
+                            </div>
+                        </div>
+             
+                    <div class="card">
+                            <div class="card-content">
+                                 <div class="number">2000</div>
+                                 <div class="card-name">In transit</div>
+                                </div>
+                                <div class="icon-box">
+                                    <i class='fas fa-shipping-fast'></i>
+                                </div>
+                            </div>
+                 
+                        <div class="card">
+                             <div class="card-content">
+                                 <div class="number">3600</div>
+                                 <div class="card-name">Delivered</div>
+                            </div>
+                                 <div class="icon-box">
+                                <i class='fas fa-rocket'></i>
+                              </div>
+                        </div>
+                </div>
+                <div class="tables">
+                    <div class="delayed-delivery">
+                        <div class="heading">
+                            <h2>Delayed delivery</h2>
+                        <a href="#" class="btn">Show All ></a>
+                        </div>
+                        <table class="delivery">
+                            <thead>
+                                <td>Destination</td>
+                                <td>Truck</td>
+                                <td>Time arrive</td>
+                                <td>Time delay</td>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Valencia-Barcelona</td>
+                                    <td>B435324</td>
+                                    <td>07:05 AM</td>
+                                    <td>5:05 h</td>
+                                </tr>
+                                <tr>
+                                    <td>Cordoba-Barcelona</td>
+                                    <td>B438987</td>
+                                    <td>10:05 AM</td>
+                                    <td>2:05 h</td>
+                                </tr>
+                                <tr>
+                                    <td>Seville-Barcelona</td>
+                                    <td>B435322</td>
+                                    <td>11:40 AM</td>
+                                    <td>0:30 h</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="daily-plan">
+                        <div class="heading">
+                            <h2>Daily plan</h2>
+                        <a href="#" class="btn">Show All ></a>
+                        </div>
+                        <table class="plan">
+                        
+                                <tbody>
+                                <tr>
+                                <td>Shipments processed</td>
+                            </tr>
+                            <tr>
+                                <td>1010/2020</td>
+                            </tr>
+                          <tr>
+                                <td>Orders processed</td>
+                          </tr>
+                          <tr>
+                            <td>650/1300</td>
+                        </tr>
+                             <tr>   
+                                <td>Requests considered</td>
+                                </tr>
+                                <tr>
+                                    <td>10/20</td>
+                                </tr>
+                                </tbody>
+                            
+                        </table>
+                    </div>
+                    <div class="available-trucks">
+                        <div class="heading">
+                            <h2>Available trucks</h2>
+                        <a href="#" class="btn">Show All ></a>
+                        </div>
+                        <table class="trucks">
+                        
+                            <tbody>
+                            <tr>
+                            <td>V435322</td>
+                        </tr>
+                        <tr>
+                            <td>Barcelone-Valencia</td>
+                        </tr>
+                      <tr>
+                            <td>S890324</td>
+                      </tr>
+                      <tr>
+                        <td>Barcelone-Sevilla</td>
+                    </tr>
+                         <tr>   
+                            <td>S423426</td>
+                            </tr>
+                            <tr>
+                                <td>Barcelona-Seville</td>
+                            </tr>
+                            </tbody>
+                        
+                    </table>
+                    </div>
+                    <div class="recent-request">
+                        <div class="heading">
+                            <h2>Recent request</h2>
+                        <a href="#" class="btn">Show All ></a>
+                        </div>
+                        <table class="request">
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="img-box-small">
+                                            <img src="parcel.png" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Parcel redirection</td>
+                                    <td>1 min ago</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="img-box-small">
+                                            <img src="parcel.png" alt="">
+                                        </div>
+                                    </td>
+                                    <td>packing problem</td>
+                                    <td>10 min ago</td>
+                                </tr>
+                            </tbody>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="img-box-small">
+                                            <img src="shipment.png" alt="">
+                                        </div>
+                                    </td>
+                                    <td>Machine breakdown</td>
+                                    <td>20 min ago</td>
+                                </tr>
+                            </tbody>
+                            
+        
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+
+</link>
+
+
+</meta>
+</meta> 
+</meta>
+</head>
+</html>    
+</html>
